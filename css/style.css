@@ -62,6 +62,10 @@ p, ul, ol {
     margin: 30px 0px;
 }
 
+.prep ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 h3 {
     color: hsl(332, 51%, 32%);
 }
@@ -75,9 +79,19 @@ ol li::marker {
     font-weight: bold;
 }
 
+ul li {
+    padding-left: 10px;
+}
+
+
 ol li {
     padding-left: 15px;
     line-height: 25px;
+}
+
+hr {
+    border: .5px hsl(30, 18%, 87%) solid;
+    width: 96%;
 }
 
 footer {

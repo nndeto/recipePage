@@ -70,6 +70,16 @@ li {
     padding: 10px 0px;
 }
 
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ol li {
+    padding-left: 15px;
+    line-height: 25px;
+}
+
 footer {
     margin: 40px 0px;
     text-align: center;

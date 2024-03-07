@@ -98,6 +98,19 @@ hr {
     width: 96%;
 }
 
+/* Nutrition table items */
+td {
+    width: 300px;
+    padding: 5px 0px 5px 30px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutri-facts {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+
 footer {
     margin: 40px 0px;
     text-align: center;

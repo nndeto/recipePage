@@ -10,14 +10,14 @@
 
 body {
     background: hsl(30, 54%, 90%);
-    text: hsl(0, 0%, 100%);
+    /* text: hsl(0, 0%, 100%);
     text: hsl(330, 100%, 98%);
     text: hsl(30, 54%, 90%);
     text: hsl(30, 18%, 87%);
     text: hsl(30, 10%, 34%);
     text: hsl(24, 5%, 18%);
     text: hsl(14, 45%, 36%);
-    text: hsl(332, 51%, 32%);
+    text: hsl(332, 51%, 32%); */
 
 }
 
@@ -101,8 +101,9 @@ hr {
 /* Nutrition table items */
 td {
     width: 300px;
-    padding: 5px 0px 5px 30px;
+    padding: 15px 0px 15px 30px;
     color: hsl(30, 10%, 34%);
+    border-bottom: .5px hsl(30, 18%, 87%) solid;
 }
 
 .nutri-facts {
@@ -120,4 +121,18 @@ footer {
 
 footer a {
     color: hsl(24, 5%, 18%);
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        max-width: 65%;
+        font-size: .75rem;
+    }
+
+    .prep ul{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
 }

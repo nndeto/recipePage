@@ -74,6 +74,10 @@ li {
     padding: 10px 0px;
 }
 
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
 ol li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
